@@ -51,3 +51,19 @@ console.log(num === str); //false
 console.log(str === num); //false
 console.log(num == str); //true
 console.log(str == num); //true
+//SWITCH
+const z = "def";
+switch (z) {
+    case "abc":
+        console.log("z = #1");
+        break;
+    case "def":
+        console.log("z = #2");
+        break;
+    default:
+     console.log("otherwise");
+}
+    for (let i = 1; i <= 5; i++) {
+        console.log(i); // OK
+    }
+    console.log(i); // Error: the i variable is not visible here
