@@ -33,3 +33,21 @@ console.log(4+5);
 console.log("4 + 5");
 console.log("4" + "5");
 console.log(4 + "5");
+const g = "five" * 2;
+console.log(g);
+const h = "5";
+console.log(h + 1);
+const i = Number(h);
+console.log(i + 1);
+const j = 6;
+console.log("5" + String(j));
+const k = "dog";
+console.log(Number(k));
+let num = 0;
+let str = "0";
+console.log(num === num); //ture
+console.log(str === str); //true
+console.log(num === str); //false
+console.log(str === num); //false
+console.log(num == str); //true
+console.log(str == num); //true
